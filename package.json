@@ -1,0 +1,39 @@
+{
+    "name": "spesial-team-bot",
+    "version": "1.0.0",
+    "description": "Ini adalah Discord Bot",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "Febriany Renata Spesial Team",
+    "license": "ISC",
+    "dependencies": {
+        "@discordjs/opus": "^0.10.0",
+        "@discordjs/voice": "^0.18.0",
+        "@distube/spotify": "^2.0.2",
+        "@distube/yt-dlp": "^2.0.1",
+        "@google/genai": "^2.30.0",
+        "@google/generative-ai": "^0.24.1",
+        "@iamtraction/play-dl": "^2.0.1",
+        "discord-rpc": "^4.0.1",
+        "discord.js": "^14.27.0",
+        "distube": "^5.1.2",
+        "dotenv": "^17.4.2",
+        "ffmpeg-static": "^5.3.0",
+        "libsodium-wrappers": "^0.8.4",
+        "node-fetch": "^3.3.2",
+        "openai": "^6.49.0",
+        "opusscript": "^0.0.8",
+        "sodium": "^3.0.2",
+        "sodium-native": "^5.1.0",
+        "tweetnacl": "^1.0.3",
+        "yt-dlp-exec": "^1.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    }
+}
